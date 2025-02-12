@@ -1,18 +1,21 @@
-# Use an official Python runtime as a parent image
-FROM python:3.9-slim
+# Use an official Python runtime as base
+FROM python:3.9
 
-# Set the working directory in the container
+# Set working directory
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
-
-# Install any needed packages
+# Install dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Define environment variables (optional)
-ENV PYTHONUNBUFFERED=1
+# Copy application files
+COPY app.py .
 
-# Run script when the container starts
-CMD ["python", "performancecategory.py"]
+# Set DISPLAY environment for Tkinter (For Linux GUI support)
+ENV DISPLAY=:1
 
+# Create output directory
+RUN mkdir -p /app/output
+
+# Run the application
+CMD ["python", "app.py"]
