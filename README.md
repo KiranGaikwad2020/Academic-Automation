@@ -25,7 +25,7 @@ This project contains the automation scripts required to perform frequently acad
 
 
 ### 1.2 Output
-- Execute the command on Ubuntu Terminal : **python3 filename.py**
+- Execute the command on Ubuntu Terminal : **python3 performancecategory.py**
 - This execution generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor.
   
 ### 1.3 Achievement
