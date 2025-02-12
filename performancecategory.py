@@ -30,12 +30,12 @@ def categorize_students(input_file, output_file, outstanding_min, good_min):
     df.to_excel(output_file, index=False)
     print(f"Categorized student list saved to {output_file}")
 
+# Classification usage
+if __name__ == "__main__":
+input_excel = "Slowlearner.xlsx"  # Input file with columns: Name, Marks
+output_excel = "categorized_students.xlsx"
 # Get user input for category ranges
 outstanding_min = int(input("Enter minimum marks for Outstanding category: "))
 good_min = int(input("Enter minimum marks for Good category: "))
-
-# Classification usage
-input_excel = "Slowlearner.xlsx"  # Input file with columns: Name, Marks
-output_excel = "categorized_students.xlsx"
 categorize_students(input_excel, output_excel, outstanding_min, good_min)
 
