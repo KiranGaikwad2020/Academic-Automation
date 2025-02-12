@@ -5,7 +5,7 @@
 4. Built the docker image of application using following command-
    - **$ docker build -t student-classification-app .**
 6.  Run the Docker Container
-   - **$ docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd)/output:/app/output student-classification-app*
+   - *$ docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd)/output:/app/output student-classification-app*
    - Where,
      - **-e DISPLAY=$DISPLAY**: Allows GUI display on host machine.
      - **-v /tmp/.X11-unix:/tmp/.X11-unix**: Enables X11 forwarding (Linux GUI support).
