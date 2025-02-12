@@ -18,4 +18,4 @@ ENV DISPLAY=:1
 RUN mkdir -p /app/output
 
 # Run the application
-CMD ["python", "app.py"]
+CMD ["python", "performancecaterogy_app.py"]
