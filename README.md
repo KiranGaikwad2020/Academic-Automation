@@ -14,13 +14,13 @@ This project contains the automation scripts required to perform frequently acad
 ### 1.1. Following are the pre-requisite
 1. Install the pip
    - **sudo apt install python3-pip**
-     ![Pip Installation](Images/pipinstallation.png)
+     ![Pip Installation](images/pipinstallation.png)
 3. Install pandas python library
    - **pip install pandas -y**
-     ![pandas installation](Images/pandasinstallation.png)
+     ![pandas installation](images/pandasinstallation.png)
 4. Install openpyxl python library
    - **pip install openpyxl -y**
-     ![openpyxl installation](Images/openxls_installation.jpeg)
+     ![openpyxl installation](images/openxls_installation.jpeg)
 5. xlsx file with the data of students (Name and Marks)
 
 
