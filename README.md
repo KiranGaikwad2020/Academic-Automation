@@ -12,14 +12,20 @@ This project contains the automation scripts required to perform frequently acad
   - Language: Python-3
   - 
 ### 1.1. Following are the pre-requisite
-1. pandas python library
-   - sudo apt install pandas -y
-2. openpyxl python library
-   - sudo apt install openpyxl -y
+1. Install the pip
+   - sudo apt install python3-pip
+     ![Pip Installation](pipinstallation.png)
+3. Install pandas python library
+   - pip install pandas -y
+     ![pandas installation](pandasinstallation.png)
+4. Install openpyxl python library
+   - pip install openpyxl -y
+     ![openpyxl installation](openxls_installation.png)
+5. xlsx file with the data of students (Name and Marks)
 
 
 ### 1.2 Output
-- python3 filename.py
-- Generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor
+- Execute the command on Ubuntu Terminal : python3 filename.py
+- This execution generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor.
       
  
