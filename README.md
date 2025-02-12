@@ -29,7 +29,7 @@ This project contains the automation scripts required to perform frequently acad
 - This execution generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor.
   
 ### 1.3 Achievement
-- Before this automation, time required to generate the xls sheet with the claissifcation Outstanding, Good and Poor was 20-30 mintues, but with this automation time required to geenrate classified xls sheet is ~ 5-7 Seconds.
+- Before this automation, time required to generate the xls sheet with the claissifcation Outstanding, Good and Poor was 20-30 mintues, but with this automation time required to generate classified xls sheet is ~ 5-7 Seconds.
 
       
  
