@@ -15,18 +15,27 @@ This project contains the automation scripts required to perform frequently acad
 1. Install the pip
    - **sudo apt install python3-pip**
      ![Pip Installation](images/pipinstallation.png)
-3. Install pandas python library
+2. Install pandas python library
    - **pip install pandas -y**
      ![pandas installation](images/pandasinstallation.png)
-4. Install openpyxl python library
+3. Install openpyxl python library
    - **pip install openpyxl -y**
-     ![openpyxl installation](images/openxls_installation.jpeg)
+   -  ![openpyxl installation](images/openxls_installation.jpeg)
+4. Install tkinter library
+   - **sudo apt install python3-tk**   
 5. xlsx file with the data of students (Name and Marks)
 
 
 ### 1.2 Output
-- Execute the command on Ubuntu Terminal : **python3 performancecategory.py**
-- This execution generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor.
+1. Execution of Simple Python Application through Terminal
+   - Change the filename in the given python script with the input file name.
+   - Execute the command on Ubuntu Terminal : **python3 performancecategory.py**
+   - This execution generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor.
+
+2. Execution of Python GUI Application
+   - Execute the command on Ubuntu Terminal: **python3 performancecategoryGUI.py**
+   - Provide the input file, Outstanding & Good Performance parameters through GUI
+   - This execution generates the output file in xlsx, with the classification categories as Outstanding, Good and Poor.
   
 ### 1.3 Achievement
 - Before this automation, time required to generate the xls sheet with the claissifcation Outstanding, Good and Poor was 20-30 mintues, but with this automation time required to generate classified xls sheet is ~ 5-7 Seconds.
