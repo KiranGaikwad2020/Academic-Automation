@@ -8,14 +8,14 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Install Xvfb and Tkinter dependencies
+RUN apt-get update && apt-get install -y xvfb x11-utils python3-tk
+
 # Copy application files
-COPY app.py .
+COPY performancecategory_app.py .
 
-# Set DISPLAY environment for Tkinter (For Linux GUI support)
-ENV DISPLAY=:1
+# Set DISPLAY environment variable
+ENV DISPLAY=:99
 
-# Create output directory
-RUN mkdir -p /app/output
-
-# Run the application
-CMD ["python", "performancecaterogy_app.py"]
+# Start Xvfb before running the application
+CMD ["sh", "-c", "Xvfb :99 -screen 0 1024x768x16 & python performancecategory_app.py"]

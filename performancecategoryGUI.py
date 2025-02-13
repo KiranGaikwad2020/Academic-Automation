@@ -6,7 +6,7 @@ import pandas as pd
 def categorize_students(input_file, output_file, outstanding_min, good_min):
     try:
         # Read the Excel file
-        df = pd.read_excel(input_file)
+        df = pd.read_excel(input_file, engine='openpyxl')
 
         # Ensure the required columns are present
         if 'Name' not in df.columns or 'Marks' not in df.columns:
@@ -34,7 +34,7 @@ def categorize_students(input_file, output_file, outstanding_min, good_min):
 
 # Function to open file dialog and select input file
 def select_input_file():
-    file_path = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx;*.xls")])
+    file_path = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx *.xls"), ("All Files", "*.*")])
     entry_input_file.delete(0, tk.END)
     entry_input_file.insert(0, file_path)
 
