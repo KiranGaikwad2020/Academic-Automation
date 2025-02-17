@@ -9,7 +9,7 @@ In both approaches time required is nearly 20-30 minutes.
 
 This project contains various development versions like simple **python automation script**, **python automation script with GUI**, **containerized application** as well as **web application** to assess the performance of students based on Marks obtained in the subject.
 
-## Approach 1. Using simple Python AUtomation Script.
+## Approach 1. Using simple Python Automation Script.
 ###Steps ar as follows:
 1. Required: Operating System-Ubuntu 22.04, Programming Platform: Python 3.10
 2. Install the pip
