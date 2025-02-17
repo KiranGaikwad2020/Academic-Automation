@@ -29,7 +29,11 @@ def categorize_students(input_file, output_file, outstanding_min, good_min):
 
 # Function to open file dialog
 def select_input_file():
+<<<<<<< HEAD
+    file_path = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx;*.xls"),("All Files", "*.*")])
+=======
     file_path = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx;*.xls"), ("All Files", "*.*")])
+>>>>>>> 0d69ad73317a83630b4887a367eea31066f8eb31
     entry_input_file.delete(0, tk.END)
     entry_input_file.insert(0, file_path)
 
