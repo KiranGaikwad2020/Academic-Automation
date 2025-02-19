@@ -47,5 +47,9 @@ This project contains various development versions like simple **python automati
 
    
 ## Achievement and Results:
-- Before this automation, time required to generate the xls sheet with the classificationFast Learners, Average Learners, and Slow Learners was 20-30 mintues, but with this automation time required to generate classified xls sheet and docx file is ~ 5-7 Seconds.    
+- Before this automation, time required to generate the xls sheet with the classificationFast Learners, Average Learners, and Slow Learners was 20-30 mintues, but with this automation time required to generate classified xls sheet and docx file is ~ 5-7 Seconds.
+-  ![Application Execution - Step 1](images/WinAppEXE_Image1.png)
+-  ![Application Execution - Step 2](images/WinAppEXE_Image2.png)
+-  ![Application Execution - Step 3](images/WinAppEXE_Image3.png)
+-  ![Application Execution - Step 4](images/WinAppEXE_Image4.png) 
  
