@@ -51,5 +51,5 @@ This project contains various development versions like simple **python automati
 -  ![Application Execution - Step 1](images/WinAppEXE_Image1.png)
 -  ![Application Execution - Step 2](images/WinAppEXE_Image2.png)
 -  ![Application Execution - Step 3](images/WinAppEXE_Image3.png)
--  ![Application Execution - Step 4](images/WinAppEXE_Image4.png) 
+
  
